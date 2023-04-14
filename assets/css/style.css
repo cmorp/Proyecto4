@@ -1,0 +1,100 @@
+* {
+    font-family: "Roboto", sans-serif;
+    --success: #198754;
+    --dark: #212529;
+    --grey: #707070;
+    --light: #F8F9FA;
+    --white: #fff;
+}
+
+
+body {
+    background-color: var(--success);
+    font-weight: 300, 500;
+}
+
+
+.navbar {
+    flex-wrap: inherit;
+    font-weight: 300;
+    background-color: var(--success);
+}
+
+
+.logo {
+    width: 100px;
+}
+
+
+h5 {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+h6 {
+    color: var(--grey);
+    font-weight: 300;
+}
+
+
+p {
+    color: var(--grey);
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+
+.card-body {
+    color: var(--light);
+    padding: 10px;
+}
+
+
+p.card-text {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+div.card-body {
+    padding-bottom: 15px;
+}
+
+
+.color-fondo {
+    background-color: var(--success)
+}
+
+
+.form-control {
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+
+
+.btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+
+.card {
+    margin-bottom: 2.5rem;
+}
+
+
+footer {
+    background-color: var(--white);
+}
+
+
+p.fot {
+    font-size: 16px;
+    padding-bottom: 22px;
+}
